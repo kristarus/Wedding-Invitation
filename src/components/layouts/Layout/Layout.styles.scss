@@ -3,7 +3,7 @@
 .np-layout {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: $full-screen-heigth;
   background-color: $main-bg-color;
 
   &__info-block {

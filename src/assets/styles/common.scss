@@ -1,6 +1,7 @@
 @import "./fonts";
 @import "./colors";
 @import "./mixins";
+@import "./constants";
 
 * {
     margin: 0;
@@ -10,7 +11,7 @@
   }
 
   body {
-    min-height: 100vh;
+    min-height: $full-screen-heigth;
     color: $main-text-color;
     background-color: $main-bg-color;
   }

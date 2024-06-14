@@ -20,7 +20,7 @@
         flex-direction: column;
         gap: 24px;    
         align-items: center;
-        min-height: 100vh;
+        min-height: $full-screen-heigth;
         // padding: $container-padding-y $container-padding-x;
     }
 
@@ -45,7 +45,7 @@
         flex-direction: column;
         gap: 16px;
         width: 100%;
-        height: 100vh;
+        height: $full-screen-heigth;
 
         &--center {
             align-items: center;
