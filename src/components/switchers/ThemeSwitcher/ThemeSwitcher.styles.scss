@@ -1,0 +1,37 @@
+@import "src/assets/styles";
+
+.np-theme-switcher {
+    &.ant-switch-checked {
+        background: $white-40;
+        .ant-switch-inner {
+            padding-inline-end: 9px;
+            padding-inline-start: 9px;
+        }
+    }
+
+    .ant-switch-inner {
+        display: flex;
+        align-items: center;
+        padding-inline-end: 9px;
+        padding-inline-start: 9px;
+
+        .ant-switch-inner-checked, .ant-switch-inner-unchecked {
+            width: 16px;
+            height: 16px;
+        }
+
+        .ant-switch-inner-checked {
+            svg {
+                fill: $white                
+            }
+        }
+
+        .ant-switch-inner-unchecked {
+            margin-top: 0;
+
+            svg {
+                fill: $white
+            }
+        }
+    }
+}

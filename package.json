@@ -1,0 +1,96 @@
+{
+  "name": "wedding-invitation",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^5.1.4",
+    "@loadable/component": "^5.15.3",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "antd": "^5.6.4",
+    "date-fns": "^2.30.0",
+    "hex-to-rgba": "^2.0.1",
+    "i18next": "^23.2.7",
+    "i18next-browser-languagedetector": "^7.1.0",
+    "lodash": "^4.17.21",
+    "react": "^18.2.0",
+    "react-countdown": "^2.3.5",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^13.0.1",
+    "react-redux": "^8.1.1",
+    "react-router-dom": "^6.14.1",
+    "react-scripts": "5.0.1",
+    "react-scroll-parallax": "^3.4.5",
+    "sass": "^1.63.6",
+    "typescript": "^4.9.5",
+    "uuid": "^9.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint ./src --ext .js,.ts,.tsx",
+    "lint:fix": "eslint --fix",
+    "prettier:check": "prettier --check \"src/**/*.{js,ts,tsx}\"",
+    "prettier:fix": "prettier --write \"src/**/*.{js,ts,tsx}\"",
+    "husky:init": "npx husky install"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.{js,ts,tsx}": [
+      "prettier --write",
+      "eslint --fix"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.6",
+    "@babel/eslint-parser": "^7.22.6",
+    "@babel/eslint-plugin": "^7.22.5",
+    "@babel/preset-react": "^7.22.5",
+    "@types/loadable__component": "^5.13.4",
+    "@types/lodash": "^4.14.195",
+    "@types/node": "^20.4.0",
+    "@typescript-eslint/eslint-plugin": "^5.61.0",
+    "@typescript-eslint/parser": "^5.61.0",
+    "eslint": "^8.44.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-import-resolver-typescript": "^3.5.5",
+    "eslint-plugin-i18n-json": "^4.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-sonarjs": "^0.19.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.3",
+    "prettier": "^2.8.8"
+  }
+}

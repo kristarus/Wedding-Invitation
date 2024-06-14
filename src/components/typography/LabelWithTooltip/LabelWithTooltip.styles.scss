@@ -1,0 +1,18 @@
+@import "src/assets/styles";
+
+.np-label-with-tooltip {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: fit-content;
+
+    &__icon {
+        fill: $spanish-gray;
+        color: $spanish-gray;
+        font-size: 14px;
+
+        path {
+            fill: inherit;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+@import "src/assets/styles/index";
+
+.np-password-validation-input {
+  &__rules {
+    display: flex;
+    flex-direction: column;
+    
+    > span[data-type="success"] {
+     color: $green-medium;
+   }
+  
+    > span[data-type="default"] {
+     color: $spanish-gray;
+   }
+  }
+}
+

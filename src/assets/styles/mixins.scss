@@ -1,0 +1,51 @@
+@mixin input-autocomplete {
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover, 
+  input:-webkit-autofill:focus, 
+  input:-webkit-autofill:active,
+  input:-internal-autofill-selected
+  {
+    -webkit-text-fill-color: $main-text-color;
+    color: $main-text-color;
+    caret-color: $main-text-color;
+    box-shadow: 0 0 0 30px $filled-input-bg-color inset !important;
+    -webkit-box-shadow: 0 0 0 30px $filled-input-bg-color inset !important;
+  }
+}
+
+@mixin toRem($property, $value) {
+  #{$property}: ($value / 16) + rem;
+}
+
+@mixin scrollbar {
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  
+  ::-webkit-scrollbar-button {
+    display: none;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: $scrollbar-thumn-color;
+    border-radius: 3px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: $scrollbar-thumn-hover-color;
+  }
+  
+  ::-webkit-scrollbar-thumb:active {
+    background: $scrollbar-thumn-active-color;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: $scrollbar-track-color;
+    border-radius: 2px;
+  }
+  
+  ::-webkit-scrollbar-corner {
+    background: transparent;
+  }
+}

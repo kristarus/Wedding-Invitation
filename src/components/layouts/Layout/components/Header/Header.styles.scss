@@ -1,0 +1,16 @@
+@import "src/assets/styles/index";
+
+.np-header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: $header-bg-color;
+    padding: 19px $container-padding-x;
+    max-width: 100%;
+
+  &__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

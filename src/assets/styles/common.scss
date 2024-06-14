@@ -1,0 +1,19 @@
+@import "./fonts";
+@import "./colors";
+@import "./mixins";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $primaryFont;
+  }
+
+  body {
+    min-height: 100vh;
+    color: $main-text-color;
+    background-color: $main-bg-color;
+  }
+
+  @include input-autocomplete;
+  @include scrollbar;

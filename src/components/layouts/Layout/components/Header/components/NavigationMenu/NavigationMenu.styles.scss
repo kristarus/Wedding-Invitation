@@ -1,0 +1,41 @@
+@import "src/assets/styles/index";
+
+.np-header {
+    &__navigation-menu {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        background-color: inherit;
+        border-bottom: none !important;
+
+        &-link {
+        text-decoration: none;
+
+        button {
+            height: 32px !important;
+        }
+        }
+
+        .ant-menu-item {
+            padding-inline: 20px;
+            font-size: 16px;
+        }
+
+        .ant-menu-title-content {
+            color: $white;
+        }
+
+        .ant-menu-item-selected, .ant-menu-item-active {
+            &:after {
+                border-bottom-width: 10px;
+                border-bottom-color: $nav-link-border-color !important;
+            }
+        }
+
+        .anticon-ellipsis {
+            svg {
+                fill: $white;
+            }
+        }
+    }
+}

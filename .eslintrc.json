@@ -1,0 +1,74 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:import/recommended",
+    "plugin:sonarjs/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
+  "plugins": ["react", "react-hooks", "import", "sonarjs", "@babel", "prettier"],
+  "parserOptions": {
+    "parser": "@babel/eslint-parser",
+    "ecmaVersion": "latest"
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "settings": {
+    "react": {
+      "pragma": "React",
+      "version": "detect"
+    },
+    "import/core-modules": ["fs"],
+    "import/resolver": {
+      "typescript": {
+        "project": "./tsconfig.json"
+      }
+    }
+  },
+  "globals": {
+    "Promise": "readonly",
+    "Set": "readonly",
+    "process": "readonly",
+    "module": "readonly"
+  },
+  "rules": {
+    "no-undef": ["off"],
+    "no-debugger": ["off"],
+    "no-use-before-define": "off",
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "ts": "never",
+        "tsx": "never"
+      }
+    ],
+    "@typescript-eslint/no-use-before-define": ["error"],
+    "@typescript-eslint/no-empty-interface": ["off"],
+    "@typescript-eslint/no-unused-vars": [
+      "warn",
+      {
+        "vars": "all",
+        "args": "after-used",
+        "ignoreRestSiblings": false
+      }
+    ],
+    "sonarjs/cognitive-complexity": ["off"],
+    "sonarjs/no-identical-functions": ["off"],
+    "sonarjs/no-duplicate-string": ["off"],
+    "sonarjs/no-nested-template-literals": ["off"],
+    "sonarjs/no-collapsible-if": ["off"],
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true
+      }
+    ],
+    "react/prop-types": ["off"],
+    "react/display-name": ["off"],
+    "react-hooks/exhaustive-deps": ["warn"]
+  }
+}

@@ -1,0 +1,14 @@
+@import "src/assets/styles";
+
+.np-date-range {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    
+    .ant-picker {
+        border-radius: 40px;
+        min-width: 120px;
+        width: 120px;
+      }
+}

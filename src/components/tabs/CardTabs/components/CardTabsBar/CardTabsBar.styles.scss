@@ -1,0 +1,26 @@
+@import "src/assets/styles";
+
+.np-card-tabs {
+    &__bar {
+        display: flex;
+        gap: 16px;
+
+        &-item {
+            background-color: $tab-bg-color;
+            padding: 10px 24px; 
+            border-radius: 10px 10px 0 0;
+            cursor: pointer;
+            font-weight: 500;
+            color: $tab-text-color;
+
+            &--active {
+                background-color: $main-bg-color-2;
+                color: $main-text-color;
+            }
+        }
+
+        .ant-badge-count {
+            background: $primary;
+        }
+    }
+}

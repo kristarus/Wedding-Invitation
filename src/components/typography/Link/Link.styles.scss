@@ -1,0 +1,10 @@
+@import "src/assets/styles/index";
+
+.np-link {
+    font-family: $inter;
+    color: $primary !important;
+
+    &:hover {
+        text-decoration: underline !important;
+    }
+}

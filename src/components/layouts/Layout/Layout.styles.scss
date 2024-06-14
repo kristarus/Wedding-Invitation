@@ -1,0 +1,18 @@
+@import "src/assets/styles/index";
+
+.np-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: $main-bg-color;
+
+  &__info-block {
+    margin: 24px $container-padding-x 0;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    flex: 0.99;
+  }
+}

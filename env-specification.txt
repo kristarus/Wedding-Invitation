@@ -1,0 +1,2 @@
+REACT_APP_BASE_URL - https://pay-back1.np2.dev/ - Server domain URL [required]
+REACT_APP_CLIENT_BASE_URL - https://payment-stage1.np2.dev/ - Client domain URL [required]

@@ -1,0 +1,53 @@
+@import "src/assets/styles/index";
+
+.np-named-tag {
+    display: flex;
+    flex-direction: column;
+    background-color: $main-bg-color-3;
+    border-radius: $container-border-radius;
+    border: 2px solid $main-bg-color-3;
+
+    &__header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        text-align: center;
+        padding: 5px 15px;
+        background-color: $main-bg-color-3;
+        border-radius: $container-border-radius $container-border-radius 0 0;
+
+        &-title {
+            font-weight: 600;
+            font-size: 16px;
+        }
+    }
+
+    &__body {
+        padding: 5px 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        flex: 1;
+        background-color: $main-bg-color-2;
+        border-radius: 0 0 $container-border-radius $container-border-radius;
+
+        &-title {
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        &-icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            svg {
+                width: 18px;
+                height: 18px;
+                font-size: 18px;
+            }
+        }
+    }
+}

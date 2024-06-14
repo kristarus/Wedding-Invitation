@@ -1,0 +1,17 @@
+@import "src/assets/styles/index";
+
+.np-header-select {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+    &__icon {
+        width: 10px;
+    }
+    
+    &__title {
+        color: $white;
+        font-size: 16px;
+        white-space: nowrap;
+    }
+}

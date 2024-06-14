@@ -1,0 +1,16 @@
+@import "src/assets/styles";
+
+.np-main-welcome-section {
+   background-image: url(../../../assets/images/weclome-birds.png);
+   background-repeat: no-repeat;
+   background-size: auto 60%;
+   background-position: bottom;
+
+   &__title-wrapper {
+    margin-bottom: 16px;
+   }
+
+   @media (min-width: 500px) {
+    background-size: 500px;
+   }
+}

@@ -1,0 +1,22 @@
+@import "src/assets/styles";
+
+.np-breadcrumb {
+    .ant-breadcrumb-link {
+        font-size: 16px;
+        font-weight: 600;
+        color: $main-text-color;
+
+        a {
+            color: $primary;
+            
+            &:hover {
+                text-decoration: underline;
+                background-color: transparent;
+            }
+        }
+    }
+
+    .ant-breadcrumb-separator {
+        font-size: 16px;
+    }
+}

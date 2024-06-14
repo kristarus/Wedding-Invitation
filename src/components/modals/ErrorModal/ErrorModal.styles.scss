@@ -1,0 +1,7 @@
+@import "src/assets/styles";
+
+.np-error-modal {
+    .np-base-modal-title {
+        color: $error-red !important;
+    }
+}

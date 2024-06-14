@@ -1,0 +1,20 @@
+@import "src/assets/styles";
+
+.np-date-counter {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    align-items: center;
+
+    &__title {
+        color: $primary;
+    }
+
+    &__content {
+        // width: fit-content;
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+}

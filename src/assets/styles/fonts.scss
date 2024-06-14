@@ -1,0 +1,36 @@
+@import "../fonts/Satoshi/css/satoshi";
+
+@font-face {
+    font-family: "Raleway";
+    src: url("../fonts/Raleway/Raleway-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter/Inter-VariableFont_slnt,wght.ttf");
+}
+
+@font-face {
+    font-family: "Memories";
+    src: url("../fonts/Memories.ttf");
+}
+
+@font-face {
+    font-family: "KobzarKS";
+    src: url("../fonts/Kobzar.ttf");
+}
+
+@font-face {
+    font-family: "Nunito";
+    src: url("../fonts/Nunito.ttf");
+}
+
+$satoshi: 'Satoshi', sans-serif;
+$raleway: 'Raleway', sans-serif;
+$inter: 'Nunito', sans-serif;
+// $memories: 'Memories', sans-serif;
+$memories: 'KobzarKS', sans-serif;
+// $memories: 'KobzarKS', sans-serif;
+
+$primaryFont: $inter;
+$secondaryFont: $memories;

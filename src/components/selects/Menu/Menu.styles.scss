@@ -1,0 +1,102 @@
+@import "src/assets/styles/index";
+
+.np-menu {
+    &__button {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 8px;
+        font-size: 12px;
+        line-height: 1;
+        height: 32px;
+
+        &--open {
+            border-radius: 24px 24px 0 0 !important;
+        }
+    }
+
+    &__dropdown, &__dropdown-submenu {
+        border-radius: 0 0 $container-border-radius $container-border-radius;
+
+        .ant-dropdown-menu, .ant-dropdown-menu-submenu {
+            background-color: $dropdown-bg-color;
+            border-radius: inherit;
+            padding: 0;
+
+            .ant-dropdown-menu-item, .ant-dropdown-menu-submenu-title {
+                padding: 8px 24px;
+                border-radius: 0;
+
+                &:hover {
+                    background-color: $primary;
+
+                    span {
+                        color: $main-icon-color !important;
+                    }
+
+                    .ant-dropdown-menu-submenu-expand-icon {
+                        span {
+                            color: $main-icon-color !important;
+                        }
+                    }
+                }
+
+                .ant-dropdown-menu-title-content {
+                    color: $primary;
+                    font-size: 12px;
+                    font-weight: 700;
+                }
+                
+                .ant-dropdown-menu-submenu-expand-icon {
+                    inset-inline-end: 22px;
+
+                    span {
+                        color: $primary !important;
+                    }
+                }
+
+                &-disabled {
+                    .ant-dropdown-menu-title-content {
+                        color: $spanish-gray;
+                    }  
+                    
+                    &:hover {
+                        background-color: transparent;
+    
+                        span {
+                            color: $spanish-gray !important;
+                        }
+                    }
+                }
+            }
+
+            .ant-dropdown-menu-submenu-title {
+                padding: 8px 34px 8px 24px;
+            }
+
+            li {
+                &:last-child {
+                    border-radius: 0 0 $container-border-radius $container-border-radius;
+
+                    & > div {
+                        border-radius: inherit;
+                    }
+                }
+            }
+        }
+    }
+
+    &__dropdown-submenu {
+        border-radius: $container-border-radius;
+
+        li {
+            &:first-child {
+                border-radius: $container-border-radius $container-border-radius 0 0 !important;
+
+                & > div {
+                    border-radius: inherit;
+                }
+            }
+        }
+    }
+}

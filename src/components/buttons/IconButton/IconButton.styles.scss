@@ -1,0 +1,54 @@
+@import "src/assets/styles";
+
+.np-icon-button {
+    padding: 0 !important;
+    color: $spanish-gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+        background-color: transparent !important;
+        color: $spanish-gray !important;
+        opacity: 0.6;
+    }
+
+    &.ant-btn-sm {
+        svg {
+            width: 18px;
+            height: 18px;
+        }
+    }
+
+    .ant-btn-sm {
+        .ant-btn-icon span {
+            font-size: 18px !important
+        }
+    }
+
+    &__text {
+        &--default {
+            color: $spanish-gray;
+
+            &:hover {
+                color: $spanish-gray !important;
+            }
+        }
+
+        &--primary {
+            color: $primary;
+
+            &:hover {
+                color: $primary !important;
+            }
+        }
+
+        &--red {
+            color: $error-red;
+
+            &:hover {
+                color: $error-red !important;
+            }
+        }
+    }
+}

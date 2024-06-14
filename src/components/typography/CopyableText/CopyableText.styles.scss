@@ -1,0 +1,11 @@
+@import "src/assets/styles";
+
+.np-copyable-text {    
+    &__icon {
+        width: 12px;
+        height: 12px;
+        fill: $primary;
+        color: $primary;
+        margin-left: 2px;
+    }
+}

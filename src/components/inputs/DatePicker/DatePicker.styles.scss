@@ -1,0 +1,45 @@
+@import "src/assets/styles/index";
+
+.np-date-picker {
+    border-radius: 50px;
+    cursor: pointer;
+    height: 32px;
+    border: 1px solid $filter-border-color;
+    background-color: $filled-input-bg-color;
+
+    &:hover, &.ant-picker-focused {
+        border: 1px solid $spanish-gray;
+        box-shadow: none;
+    }
+
+    .ant-picker-suffix {
+        color: $spanish-gray;
+    }
+
+    input {
+        line-height: 1 !important;
+        font-size: 12px !important;
+    }
+
+    input::placeholder {
+        color: $spanish-gray !important;
+        font-weight: 500;
+        font-size: 12px;
+    }
+
+    &__popup {
+        .ant-picker-panel-container {
+            box-shadow: none;
+            border: 1px solid $table-header-border-color;
+        }
+    }
+
+    &__footer {
+        display: flex;
+        padding: 16px;
+        gap: 8px;
+        justify-content: center;
+    }
+
+    @include input-autocomplete
+}

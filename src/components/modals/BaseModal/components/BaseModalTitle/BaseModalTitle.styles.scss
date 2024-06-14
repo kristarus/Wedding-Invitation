@@ -1,0 +1,13 @@
+@import "src/assets/styles";
+
+.np-base-modal-title {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    svg {
+        min-width: 24px;
+        width: 24px;
+        height: 24px;
+    }
+}

@@ -1,0 +1,8 @@
+@import "src/assets/styles";
+
+.np-confirm-modal {
+    &__buttons {
+        display: flex;
+        gap: 10px;
+    }
+}

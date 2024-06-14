@@ -1,0 +1,107 @@
+@import "src/assets/styles/index";
+
+.np-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    font-weight: 700;
+    padding: 10px 22px !important;
+
+    &.ant-btn-sm {
+        height: 30px;
+        font-size: 12px;
+        padding: 7px 20px !important;
+    }
+
+    &__primary {
+        &--primary {
+            &.ant-btn-primary {
+                color: $primary-button-text-color;
+    
+                &:hover {
+                    color: $primary-button-text-color !important;
+                }
+            }
+
+            &:disabled {
+                background-color: $primary;
+                opacity: 0.4;
+                border: none;
+            }
+        }
+
+        &--red {
+            background-color: $red-medium;
+            
+            &.ant-btn-primary {
+                color: $primary-button-text-color;
+    
+                &:hover {
+                    color: $primary-button-text-color !important;
+                }
+            }
+
+            &:hover {
+                background-color: $red-medium !important;
+                opacity: 0.8;
+            }
+            
+            &:disabled {
+                background-color: $red-medium;
+                opacity: 0.4;
+                border: none;
+            }
+        }
+    }
+
+    &__default {
+        &--primary {
+            &.ant-btn-default {
+                border-color: $primary; 
+                color: $primary;
+                background-color: transparent;
+            }
+
+            &:disabled {
+                opacity: 0.4;
+            }
+        }
+
+        &--white {
+            &.ant-btn-default {
+                border-color: $white; 
+                color: $white;
+                background-color: transparent;
+            }
+
+            &:not(:disabled):active, &:not(:disabled):hover {
+                border-color: $white !important; 
+                color: $white !important;
+                opacity: 0.7;
+            }
+
+            &:disabled {
+                opacity: 0.4;
+            }
+        }
+
+        &--red {
+            &.ant-btn-default {
+                border-color: $red-medium; 
+                color: $red-medium;
+                background-color: transparent;
+            }
+
+            &:not(:disabled):active, &:not(:disabled):hover {
+                border-color: $red-medium !important; 
+                color: $red-medium !important;
+                opacity: 0.7;
+            }
+
+            &:disabled {
+                opacity: 0.4;
+            }
+        }
+    }
+}

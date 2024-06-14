@@ -1,0 +1,15 @@
+@import "src/assets/styles";
+
+.np-date-counter-item {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+
+    &__title {
+        font-size: 24px;
+    }
+
+    &__desc {
+        font-size: 12px;
+    }
+}

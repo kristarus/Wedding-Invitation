@@ -1,0 +1,15 @@
+export { ReactComponent as LogoLightIcon } from './svg/logo-light.svg';
+export { ReactComponent as LogoColoredBlackIcon } from './svg/logo-colored-black.svg';
+export { ReactComponent as LogoColoredWhiteIcon } from './svg/logo-colored-white.svg';
+export { ReactComponent as ArrowDownIcon } from './svg/arrow-down.svg';
+export { ReactComponent as MoonIcon } from './svg/moon.svg';
+export { ReactComponent as SunIcon } from './svg/sun.svg';
+export { ReactComponent as FacebookIcon } from './svg/facebook.svg';
+export { ReactComponent as TwitterIcon } from './svg/twitter.svg';
+export { ReactComponent as TelegramIcon } from './svg/telegram.svg';
+export { ReactComponent as InstagramIcon } from './svg/instagram.svg';
+export { ReactComponent as PickIcon } from './svg/pick.svg';
+export { ReactComponent as BtcOutIcon } from './svg/btc-out.svg';
+export { ReactComponent as QuestionIcon } from './svg/question.svg';
+export { ReactComponent as CopyIcon } from './svg/copy.svg';
+export { ReactComponent as NotFoundIcon } from './svg/not-found.svg';

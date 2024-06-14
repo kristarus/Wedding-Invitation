@@ -1,0 +1,35 @@
+@import "src/assets/styles";
+
+.np-button-tabs {
+    .ant-radio-button-wrapper {
+        transition: all 0.15s;
+
+        &::before {
+            background-color: $radio-border-color;
+        }
+
+        &:not(:hover, .ant-radio-button-wrapper-checked) {
+            border-color: $radio-border-color;
+        }
+
+        &:hover {
+            opacity: 0.7;
+        }
+
+        &.ant-radio-button-wrapper-checked {
+            background-color: $primary;
+
+            span {
+                color: $main-icon-color;
+            }
+
+            &::before {
+                background-color: $primary; 
+            }
+        }
+
+        span {
+            color: $spanish-gray;
+        }
+    }
+}

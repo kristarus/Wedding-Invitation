@@ -1,0 +1,67 @@
+@import "src/assets/styles/index";
+
+.np-filter {
+    &-submenu {
+        .ant-dropdown-menu {
+            box-shadow: none !important;
+            border: 1px solid $table-header-border-color;
+            border-radius: $container-border-radius;
+
+            &-item {
+                border-radius: inherit !important;
+
+                span {
+                    font-weight: 500;
+                    transition: all 0.2s;
+                }
+    
+                &-active, .ant-checkbox-wrapper-checked {
+                    span {
+                        color: $primary;
+                        border-color: $primary;
+                    }
+                }
+            }
+        }
+    }
+    
+    &__button {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 8px;
+        font-size: 12px;
+        line-height: 1;
+        box-shadow: none;
+        height: 32px;
+        background-color: $filled-input-bg-color !important;
+
+        &--no-active {
+            color: $spanish-gray !important;
+            border-color: $filter-border-color !important;
+
+            &:hover {
+                &:not(:disabled) {
+                    border-color: $spanish-gray !important;
+                }
+            }
+
+        }
+
+        &:disabled {
+            opacity: 0.6;
+        }
+
+        .ant-space-item {
+            display: flex;
+            align-items: center;
+
+            svg {
+                width: 16px;
+                height: 16px;
+            }
+        }
+    }
+
+    
+}

@@ -1,0 +1,34 @@
+@import "src/assets/styles";
+
+.np-error-column {
+    color: $error-red;
+    font-size: 12px;
+
+    &--error {
+        color: $error-red;
+
+        .np-error-column__icon {
+            color: $error-red;
+        }
+    }
+
+    &--warning {
+        color: $yellow-medium;
+
+        .np-error-column__icon {
+            color: $yellow-medium;
+        }
+    }
+
+    &__icon {
+        margin-left: 5px;
+    }
+
+    &__tooltip {
+        padding-inline-start: 20px;
+
+        .ant-typography {
+            color: $white;
+        }
+    }
+}

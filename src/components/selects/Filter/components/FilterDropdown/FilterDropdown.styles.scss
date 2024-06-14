@@ -1,0 +1,70 @@
+@import "src/assets/styles/index";
+
+.np-filter {
+    &__dropdown {
+        background-color: $dropdown-bg-color;
+        border-radius: $container-border-radius;
+        border: 1px solid $table-header-border-color;
+        margin-top: 8px;
+
+        &-actions {
+            display: flex;
+            justify-content: flex-end;
+            padding: 12px 16px;
+
+            .ant-btn {
+                font-size: 10px;
+                padding: 20px 8px;
+                height: 30px;
+            }
+        }
+
+        & > div {
+            border-radius: inherit;
+        }
+
+        .ant-dropdown-menu {
+            box-shadow: none;
+            border-radius: inherit;
+        }
+
+        .ant-dropdown-menu-item {
+            padding: 0 !important;
+
+            &:hover {
+                border-radius: $container-border-radius;
+            }
+
+            span {
+                font-weight: 500;
+                transition: all 0.2s;
+            }
+
+            &-active, .ant-checkbox-wrapper-checked {
+                span {
+                    color: $primary;
+                }
+            }
+
+            .ant-checkbox-wrapper {
+                padding: 5px 12px !important; 
+                width: 100%;
+            }
+        }
+
+        .ant-dropdown-menu-submenu {
+
+            &-title {
+                border-radius: $container-border-radius !important;
+            }
+
+            .ant-dropdown-menu-title-content {
+                font-weight: 500;
+            }
+
+            .ant-dropdown-menu-item {
+                border-radius: $container-border-radius !important;
+            }
+        }
+    }
+}

@@ -1,0 +1,46 @@
+@import "src/assets/styles/index";
+
+$logo-width: 98px;
+$logo-height: 30px;
+
+.np-footer {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  padding: 63px $container-padding-x;  
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    gap: 22px;
+
+    .ant-typography {
+      line-height: 26px;
+    }
+  }
+  
+  &__social-links {
+    display: flex;
+    gap: 13px;
+  }
+
+  &__icon-button {
+    width: 34px;
+    height: 34px;
+    border: none;
+    cursor: pointer;
+    border-radius: 34px;
+    background-color: $primary;
+  }
+
+  &__logo {
+    width: $logo-width;
+    height: $logo-height;
+  }
+
+  &__links {
+    display: flex;
+    gap: 113px;
+  }
+}
