@@ -6,3 +6,5 @@ export { default as EmptyColumn } from './table-components/columns/EmptyColumn';
 export { default as ErrorColumn } from './table-components/columns/ErrorColumn';
 
 export { default as DateCounter } from './counters/DateCounter';
+
+export { default as MonthCalendar } from './calendars/MonthCalendar';

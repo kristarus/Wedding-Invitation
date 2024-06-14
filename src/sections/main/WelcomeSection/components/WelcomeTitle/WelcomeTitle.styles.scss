@@ -7,6 +7,10 @@
         font-family: $memories;
         color: $primary;
 
+        @media (min-width: 400px) {
+            font-size: 50px;
+        }
+
         &-desc {
             font-weight: 600;
             font-size: 16px;

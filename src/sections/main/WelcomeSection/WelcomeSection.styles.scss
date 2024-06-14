@@ -5,12 +5,9 @@
    background-repeat: no-repeat;
    background-size: auto 60%;
    background-position: bottom;
+   min-height: 600px;
 
    &__title-wrapper {
     margin-bottom: 16px;
-   }
-
-   @media (min-width: 500px) {
-    background-size: 500px;
    }
 }

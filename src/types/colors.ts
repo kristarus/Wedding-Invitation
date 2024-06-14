@@ -34,7 +34,7 @@ export enum DefaultColors {
   CRIMSON_LIGHT = '#fedcf5',
   CRIMSON_MEDIUM = '#bf2559',
   CRIMSON_DARK = '#492740',
-  GREEN_LIGHT = '#CCE6D6',
+  GREEN_LIGHT = '#4c8776',
   GREEN_MEDIUM_2 = '#008234',
   GREEN_DARK = '#233028',
   ORANGE_LIGHT = '#fedec1',
@@ -76,6 +76,8 @@ export enum DarkColors {
 
   MAIN_TEXT_COLOR = DefaultColors.WHITE,
   MAIN_ICON_COLOR = DefaultColors.EXTRADARK_GRAY,
+
+  MAIN_DESC_COLOR = DefaultColors.GREEN_LIGHT,
 
   PRIMARY_BUTTON_TEXT_COLOR = DefaultColors.EXTRADARK_GRAY,
   PRIMARY_BUTTON_TEXT_DISABLED_COLOR = DefaultColors.WHITE_40,
@@ -139,6 +141,8 @@ export enum LightColors {
 
   MAIN_TEXT_COLOR = DefaultColors.EXTRADARK_GRAY,
   MAIN_ICON_COLOR = DefaultColors.WHITE,
+
+  MAIN_DESC_COLOR = DefaultColors.GREEN_LIGHT,
 
   PRIMARY_BUTTON_TEXT_COLOR = DefaultColors.WHITE,
   PRIMARY_BUTTON_TEXT_DISABLED_COLOR = DefaultColors.SPANISH_GRAY,

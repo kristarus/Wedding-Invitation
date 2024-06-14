@@ -1,0 +1,16 @@
+@import "src/assets/styles";
+
+.np-main-invitation-section {
+    background-color: rgb(197, 215, 200);
+
+    &__desc {
+        display: flex;
+        justify-content: flex-end;
+        font-size: 14px;
+        color: $main-desc-color;
+    }
+
+    .np-section-layout__body  {
+        justify-content: space-between;
+    }
+}
