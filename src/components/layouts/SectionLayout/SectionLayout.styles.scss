@@ -14,7 +14,6 @@
         flex-direction: column;
         gap: 24px;    
         align-items: center;
-        min-height: $full-screen-heigth;
     }
 
     &__header {
@@ -38,7 +37,6 @@
         flex-direction: column;
         gap: 16px;
         width: 100%;
-        min-height: calc($full-screen-heigth - $container-padding-y - $container-padding-y);
 
         &--center {
             align-items: center;
@@ -47,5 +45,15 @@
 
     &--center {
         justify-content: center;
+    }
+
+    &--full-screen {
+        .np-section-layout__body {
+            min-height: calc($full-screen-heigth - $container-padding-y - $container-padding-y);
+        }
+
+        .np-section-layout-wrapper {
+            min-height: $full-screen-heigth;
+        }
     }
 }

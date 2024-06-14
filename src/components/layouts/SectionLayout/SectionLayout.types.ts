@@ -8,4 +8,5 @@ export interface ISectionLayoutProps extends BaseComponentProps {
   verticalCentered?: boolean;
   rightHeaderComponent?: JSX.Element;
   bottomComponent?: JSX.Element;
+  fullScreenHeight?: boolean;
 }

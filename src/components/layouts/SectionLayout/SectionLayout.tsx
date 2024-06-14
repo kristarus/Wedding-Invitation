@@ -17,6 +17,7 @@ const SectionLayout = ({
   verticalCentered,
   rightHeaderComponent,
   bottomComponent,
+  fullScreenHeight = true,
   ...props
 }: ISectionLayoutProps) => {
   const { t } = useTranslation();
@@ -25,9 +26,11 @@ const SectionLayout = ({
   const centeredBodyClass = bodyCentered ? 'np-section-layout__body--center' : '';
   const verticalCenteredClass = verticalCentered ? 'np-section-layout--center' : '';
 
+  const fullScreenHeightClass = fullScreenHeight ? 'np-section-layout--full-screen' : '';
+
   return (
     <div className="np-section-layout-wrapper">
-      <div className={`np-section-layout ${verticalCenteredClass} ${className}`} {...props}>
+      <div className={`np-section-layout ${verticalCenteredClass} ${fullScreenHeightClass} ${className}`} {...props}>
         <div className={`np-section-layout__header ${centeredHeaderClass}`}>
           {title && <Text className={`np-section-layout__title`}>{t(title)}</Text>}
           {rightHeaderComponent}
