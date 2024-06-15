@@ -10,7 +10,7 @@ import './InvitationSection.styles.scss';
 
 const InvitationSection = () => {
   return (
-    <SectionLayout fullScreenHeight={false} className="np-main-invitation-section">
+    <SectionLayout bodyCentered fullScreenHeight={false} className="np-main-invitation-section">
       <InvitationHeader />
 
       <MonthCalendar date={WEDDING_DATE} month={WEDDING_MONTH} year={WEDDING_YEAR} />

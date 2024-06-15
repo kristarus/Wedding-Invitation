@@ -7,6 +7,8 @@
     background-color: rgb(214, 223, 211);
     padding: 12px 16px;
     border-radius: $container-border-radius;
+    max-width: 400px;
+    width: 100%;
 
     &__header {
         display: flex;

@@ -1,0 +1,10 @@
+@import "src/assets/styles";
+
+.np-main-location-map {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    aspect-ratio : 1 / 1;
+    border: none;
+    border-radius: $container-border-radius;
+}
