@@ -12,4 +12,5 @@ export { ReactComponent as PickIcon } from './svg/pick.svg';
 export { ReactComponent as BtcOutIcon } from './svg/btc-out.svg';
 export { ReactComponent as QuestionIcon } from './svg/question.svg';
 export { ReactComponent as CopyIcon } from './svg/copy.svg';
+export { ReactComponent as ArrowRightIcon } from './svg/arrow-right.svg';
 export { ReactComponent as NotFoundIcon } from './svg/not-found.svg';

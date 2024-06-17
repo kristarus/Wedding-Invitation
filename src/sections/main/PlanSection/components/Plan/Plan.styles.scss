@@ -1,0 +1,54 @@
+@import "src/assets/styles";
+
+.np-main-plan-section-plan {
+    width: 100%;
+    max-width: 400px;
+    padding: 24px 0;
+
+    &__block {
+        display: flex;
+        align-items: flex-end;
+        gap: 16px;
+        
+        &-arrow {
+            width: 40%;
+            height: auto;
+
+            &.flip {
+                -webkit-transform: scaleX(-1);
+                transform: scaleX(-1);
+            }
+        }
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+        width: 60%;
+
+        &-title {
+            font-family: $memories;
+            font-size: 28px;
+            font-weight: 600;
+            color: $primary;
+        }
+
+        &-desc {
+            font-size: 14px;
+            color: $main-desc-color;
+            text-align: center;
+
+            &-wrapper {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+        &-img {
+            width: 100%;
+        }
+    }
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import { InvitationSection, LocationSection, WelcomeSection } from 'sections';
+import { InvitationSection, LocationSection, PlanSection, WelcomeSection } from 'sections';
 
 const MainPage = () => {
   return (
@@ -7,6 +7,7 @@ const MainPage = () => {
       <WelcomeSection />
       <InvitationSection />
       <LocationSection />
+      <PlanSection />
     </>
   );
 };

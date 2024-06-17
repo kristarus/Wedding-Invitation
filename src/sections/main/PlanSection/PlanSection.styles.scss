@@ -1,0 +1,26 @@
+@import "src/assets/styles";
+
+.np-main-plan-section {
+    position: relative;
+    background-color: rgb(185, 209, 189);
+    background: linear-gradient(0deg, rgba(185, 209, 189) 0%, rgb(214 223 211) 100%);
+
+
+    &__title {
+        padding-top: 40%;
+        font-size: 40px;
+        font-family: $memories;
+        color: $primary;
+
+        @media (min-width: 400px) {
+            font-size: 50px;
+        }
+    }
+
+    &__img {
+        position: absolute;
+        right: 0;
+        top: -60px;
+        width: 65%;
+    }
+}

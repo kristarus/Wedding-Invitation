@@ -4,6 +4,7 @@
     position: relative;
     padding-bottom: 24px;
     background: linear-gradient(0deg, rgb(214 223 211) 70%, rgb(185, 209, 189) 100%);
+    padding-bottom: 72px;
 
     .np-section-layout__body  {
         gap: 32px;
@@ -12,7 +13,7 @@
     &__img {
         position: absolute;
         left: 0;
-        top: -50px;
+        top: -60px;
         width: 65%;
     }
 }
