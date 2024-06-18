@@ -3,6 +3,8 @@ import React from 'react';
 import Divider from 'assets/images/divider.png';
 
 import './Details.styles.scss';
+import { Button } from 'components';
+import { Link } from 'react-router-dom';
 
 const Details = () => {
   return (
@@ -42,6 +44,12 @@ const Details = () => {
         <span className="np-main-details-section-details__item-desc">
           По всем интересующим вас вопросам можете обращайться к нашему свадебному организатору Виктории:
         </span>
+
+        <Link to="tel:+375291900920">
+          <Button size="small" className="np-main-details-section-details__item-btn">
+            +375 (29) 190 09 20
+          </Button>
+        </Link>
       </div>
 
       <div className="np-main-details-section-details__divider-wrapper">

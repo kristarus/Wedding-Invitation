@@ -43,5 +43,15 @@
             font-size: 14px;
             color: $main-desc-color;
         }
+
+        &-btn {
+            width: fit-content;
+            margin: 10px auto 0;
+            background-color: $main-desc-color;
+        }
+    }
+
+    a {
+        text-decoration: none;
     }
 }

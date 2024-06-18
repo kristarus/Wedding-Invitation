@@ -7,6 +7,8 @@ export enum DefaultColors {
   CHARLESTON_GREEN = '#282828',
   MAXIMUM_BLUE = '#3aa6d1',
   GREEN_MEDIUM = '#043f2e',
+  GREEN_MEDIUM_20 = 'rgba(4, 63, 46, 0.2)',
+  GREEN_MEDIUM_50 = 'rgba(4, 63, 46, 0.5)',
   GREEN_BRIGHT = '#b8de72',
   VIVID_LIME_GREEN = '#B2D818',
   BATTERY_CHARGED_BLUE = '#189CD8',
@@ -103,14 +105,14 @@ export enum DarkColors {
 
   FILLED_INPUT_BG_COLOR = DefaultColors.CHINESE_BLACK,
 
-  HAV_LINK_BORDER_COLOR = DefaultColors.BATTERY_CHARGED_BLUE,
+  HAV_LINK_BORDER_COLOR = DefaultColors.GREEN_MEDIUM,
 
   TABLE_COLUMN_DISABLED_COLOR = DefaultColors.LIGHT_SILVER_3,
   TABLE_HEADER_DISABLED_COLOR = DefaultColors.BLACK_5,
   TABLE_HEADER_BORDER_COLOR = DefaultColors.EXTRADARK_GRAY,
   TABLE_ROW_COLOR = DefaultColors.BLACK_5,
   TABLE_SELECTED_ROW_COLOR = DefaultColors.BATTERY_CHARGED_BLUE_DARK,
-  TABLE_SUMMARY_COLOR = DefaultColors.BATTERY_CHARGED_BLUE_20,
+  TABLE_SUMMARY_COLOR = DefaultColors.GREEN_MEDIUM_20,
   TABLE_HOVER_ROW = DefaultColors.EXTRADARK_GRAY,
 
   TAB_BG_COLOR = DefaultColors.BLACK_60,
@@ -121,8 +123,8 @@ export enum DarkColors {
 
   SCROLL_TRACK_COLOR = DefaultColors.WHITE_40,
   SCROLL_THUMB_COLOR = DefaultColors.DIAMOND,
-  SCROLL_THUMB_ACTIVE_COLOR = DefaultColors.BATTERY_CHARGED_BLUE_50,
-  SCROLL_THUMB_HOVER_COLOR = DefaultColors.BATTERY_CHARGED_BLUE_50,
+  SCROLL_THUMB_ACTIVE_COLOR = DefaultColors.GREEN_MEDIUM_50,
+  SCROLL_THUMB_HOVER_COLOR = DefaultColors.GREEN_MEDIUM_50,
 }
 
 export enum LightColors {
@@ -151,7 +153,7 @@ export enum LightColors {
 
   FOOTER_LINK_COLOR = DefaultColors.DARK_GRAY_50,
 
-  HEADER_BG_COLOR = DefaultColors.BATTERY_CHARGED_BLUE,
+  HEADER_BG_COLOR = DefaultColors.GREEN_MEDIUM,
 
   RADIO_BORDER_COLOR = DefaultColors.LIGHT_SILVER,
 
@@ -175,7 +177,7 @@ export enum LightColors {
   TABLE_HEADER_BORDER_COLOR = DefaultColors.LIGHT_SILVER,
   TABLE_ROW_COLOR = DefaultColors.BRIGHT_GRAY,
   TABLE_SELECTED_ROW_COLOR = DefaultColors.DIAMOND,
-  TABLE_SUMMARY_COLOR = DefaultColors.BATTERY_CHARGED_BLUE_20,
+  TABLE_SUMMARY_COLOR = DefaultColors.GREEN_MEDIUM_20,
   TABLE_HOVER_ROW = DefaultColors.LIGHT_GRAY,
 
   TAB_BG_COLOR = DefaultColors.LIGHT_SILVER,
@@ -186,8 +188,8 @@ export enum LightColors {
 
   SCROLL_TRACK_COLOR = DefaultColors.WHITE_40,
   SCROLL_THUMB_COLOR = DefaultColors.DIAMOND,
-  SCROLL_THUMB_ACTIVE_COLOR = DefaultColors.BATTERY_CHARGED_BLUE_50,
-  SCROLL_THUMB_HOVER_COLOR = DefaultColors.BATTERY_CHARGED_BLUE_50,
+  SCROLL_THUMB_ACTIVE_COLOR = DefaultColors.GREEN_MEDIUM_50,
+  SCROLL_THUMB_HOVER_COLOR = DefaultColors.GREEN_MEDIUM_50,
 }
 
 const ThemeTokenCommon = {
@@ -195,20 +197,20 @@ const ThemeTokenCommon = {
 };
 
 export const ThemeTokenLight = {
-  colorPrimary: DefaultColors.BATTERY_CHARGED_BLUE,
-  colorLink: DefaultColors.BATTERY_CHARGED_BLUE,
-  colorLinkHover: DefaultColors.BATTERY_CHARGED_BLUE_50,
-  colorLinkActive: DefaultColors.BATTERY_CHARGED_BLUE_50,
+  colorPrimary: DefaultColors.GREEN_MEDIUM,
+  colorLink: DefaultColors.GREEN_MEDIUM,
+  colorLinkHover: DefaultColors.GREEN_MEDIUM_50,
+  colorLinkActive: DefaultColors.GREEN_MEDIUM_50,
   colorBgElevated: DefaultColors.WHITE,
 
   ...ThemeTokenCommon,
 };
 
 export const ThemeTokenDark = {
-  colorPrimary: DefaultColors.BATTERY_CHARGED_BLUE,
-  colorLink: DefaultColors.BATTERY_CHARGED_BLUE,
-  colorLinkHover: DefaultColors.BATTERY_CHARGED_BLUE_50,
-  colorLinkActive: DefaultColors.BATTERY_CHARGED_BLUE_50,
+  colorPrimary: DefaultColors.GREEN_MEDIUM,
+  colorLink: DefaultColors.GREEN_MEDIUM,
+  colorLinkHover: DefaultColors.GREEN_MEDIUM_50,
+  colorLinkActive: DefaultColors.GREEN_MEDIUM_50,
   colorBgElevated: DefaultColors.CHINESE_BLACK,
 
   ...ThemeTokenCommon,
