@@ -1,0 +1,14 @@
+@import "src/assets/styles";
+
+.np-main-details-section {
+    &__title {
+        padding-top: 24px;
+        font-size: 40px;
+        font-family: $memories;
+        color: $primary;
+
+        @media (min-width: 400px) {
+            font-size: 50px;
+        }
+    }
+}

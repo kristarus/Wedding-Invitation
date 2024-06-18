@@ -1,0 +1,47 @@
+@import "src/assets/styles";
+
+.np-main-details-section-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 0;
+
+    &__divider {
+        width: 40%;
+
+        &.flip {
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+        }
+
+        &-wrapper {
+            display: flex;
+            justify-content: center;
+
+            &.flip-y {
+                -webkit-transform: scaleY(-1);
+                transform: scaleY(-1);
+            }
+        }
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        text-align: center;
+
+        &-title {
+            font-family: $memories;
+            font-size: 18px;
+            font-weight: 600;
+            color: $primary;
+        }
+
+        &-desc {
+            font-size: 14px;
+            color: $main-desc-color;
+        }
+    }
+}

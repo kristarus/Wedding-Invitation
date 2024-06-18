@@ -44,7 +44,8 @@ const Plan = () => {
           <span className="np-main-plan-section-plan__item-title">15:30</span>
 
           <div className="np-main-plan-section-plan__item-desc-wrapper">
-            <span className="np-main-plan-section-plan__item-desc">Банкет</span>
+            <span className="np-main-plan-section-plan__item-desc">Банкет, танцы</span>
+            <span className="np-main-plan-section-plan__item-desc">и развлечения</span>
           </div>
         </div>
       </div>
