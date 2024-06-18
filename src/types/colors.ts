@@ -7,7 +7,7 @@ export enum DefaultColors {
   CHARLESTON_GREEN = '#282828',
   MAXIMUM_BLUE = '#3aa6d1',
   GREEN_MEDIUM = '#043f2e',
-  GREEN_BRIGHT = '#9fde72',
+  GREEN_BRIGHT = '#b8de72',
   VIVID_LIME_GREEN = '#B2D818',
   BATTERY_CHARGED_BLUE = '#189CD8',
   BATTERY_CHARGED_BLUE_5 = 'rgba(24, 156, 216, 0.05)',
