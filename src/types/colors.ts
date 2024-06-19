@@ -207,9 +207,9 @@ export const ThemeTokenLight = {
   labelColor: DefaultColors.GREEN_LIGHT,
   colorError: DefaultColors.RED_WINE,
   colorBorder: 'transparent',
-  colorBgContainer: 'rgb(233 241 230)',
-  activeBg: 'rgb(233 241 230)',
-  hoverBg: 'rgb(233 241 230)',
+  colorBgContainer: 'rgb(223 233 220)',
+  activeBg: 'rgb(223 233 220)',
+  hoverBg: 'rgb(223 233 220)',
 
   ...ThemeTokenCommon,
 };
@@ -224,9 +224,9 @@ export const ThemeTokenDark = {
   labelColor: DefaultColors.GREEN_LIGHT,
   colorError: DefaultColors.RED_WINE,
   colorBorder: 'transparent',
-  colorBgContainer: 'rgb(233 241 230)',
-  activeBg: 'rgb(233 241 230)',
-  hoverBg: 'rgb(233 241 230)',
+  colorBgContainer: 'rgb(223 233 220)',
+  activeBg: 'rgb(223 233 220)',
+  hoverBg: 'rgb(223 233 220)',
 
   ...ThemeTokenCommon,
 };
