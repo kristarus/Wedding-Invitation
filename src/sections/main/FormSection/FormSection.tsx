@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 import Header from './components/Header';
 import { SectionLayout } from 'components';
@@ -11,10 +12,17 @@ import './FormSection.styles.scss';
 const FormSection = () => {
   return (
     <SectionLayout bodyCentered fullScreenHeight={false} className="np-main-form-section">
-      <Header />
-      <QuestionsForm />
+      <ScrollAnimation animateOnce animateIn="fadeIn">
+        <Header />
+      </ScrollAnimation>
 
-      <img src={FooterSrc} draggable={false} className="np-main-form-section__img" />
+      <ScrollAnimation animateOnce animateIn="fadeIn">
+        <QuestionsForm />
+      </ScrollAnimation>
+
+      <ScrollAnimation animateOnce animateIn="fadeIn">
+        <img src={FooterSrc} draggable={false} className="np-main-form-section__img" />
+      </ScrollAnimation>
     </SectionLayout>
   );
 };

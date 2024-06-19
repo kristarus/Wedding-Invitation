@@ -4,9 +4,13 @@
     position: relative;
     background: linear-gradient(0deg, rgb(214 223 211) 0%, rgba(185, 209, 189, 0.85) 20%, rgba(185, 209, 189, 0.85) 80%, rgb(214 223 211) 100%);
 
+    &__header {
+        display: flex;
+        justify-content: center;
+        padding-top: 40%;
+    }
 
     &__title {
-        padding-top: 40%;
         font-size: 40px;
         font-family: $memories;
         color: $primary;

@@ -16,6 +16,7 @@ const WelcomeSection = () => {
   return (
     <SectionLayout className="np-main-welcome-section">
       <WelcomeTitle />
+
       <DateCounter date={WEDDING_FULL_DATE} title="До свадьбы осталось:" options={{ size: isMobileView ? 70 : 90 }} />
     </SectionLayout>
   );

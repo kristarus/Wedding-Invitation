@@ -8,6 +8,7 @@ import { setupStore } from 'store/store';
 import './config/i18n';
 
 import 'antd/dist/reset.css';
+import 'animate.css/animate.compat.css';
 
 const store = setupStore();
 

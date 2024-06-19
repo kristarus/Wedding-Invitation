@@ -1,6 +1,9 @@
 @import "src/assets/styles";
 
 .np-main-welcome-section {
+   opacity: 1;
+   animation: fade 0.5s linear;
+
    background-image:  url(../../../assets/images/weclome-birds.png), linear-gradient(0deg, rgba(185, 209, 189) 0%, rgb(214 223 211) 40%);   
    background-repeat: no-repeat;
    background-size: auto 60%;
@@ -11,3 +14,8 @@
     margin-bottom: 16px;
    }
 }
+
+@keyframes fade {
+   0% { opacity: 0 }
+   100% { opacity: 1 }
+ }

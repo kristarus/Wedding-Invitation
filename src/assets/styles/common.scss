@@ -16,5 +16,9 @@
     background-color: $main-bg-color;
   }
 
+  .animated {
+    width: 100%;
+  }
+
   @include input-autocomplete;
   @include scrollbar;

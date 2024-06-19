@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 import Map from './components/Map';
 import { SectionLayout } from 'components';
@@ -10,10 +11,17 @@ import './LocationSection.styles.scss';
 const LocationSection = () => {
   return (
     <SectionLayout bodyCentered fullScreenHeight={false} className="np-main-location-section">
-      <img src={BirdsLeft} draggable={false} className="np-main-location-section__img" />
+      <ScrollAnimation animateOnce animateIn="fadeIn">
+        <img src={BirdsLeft} draggable={false} className="np-main-location-section__img" />
+      </ScrollAnimation>
 
-      <LocationHeader />
-      <Map />
+      <ScrollAnimation animateOnce animateIn="fadeIn">
+        <LocationHeader />
+      </ScrollAnimation>
+
+      <ScrollAnimation animateOnce animateIn="fadeIn">
+        <Map />
+      </ScrollAnimation>
     </SectionLayout>
   );
 };

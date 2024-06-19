@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 import { MonthCalendar } from 'modules';
 import { SectionLayout } from 'components';
@@ -11,11 +12,17 @@ import './InvitationSection.styles.scss';
 const InvitationSection = () => {
   return (
     <SectionLayout bodyCentered fullScreenHeight={false} className="np-main-invitation-section">
-      <InvitationHeader />
+      <ScrollAnimation animateOnce animateIn="fadeIn">
+        <InvitationHeader />
+      </ScrollAnimation>
 
-      <MonthCalendar date={WEDDING_DATE} month={WEDDING_MONTH} year={WEDDING_YEAR} />
+      <ScrollAnimation animateOnce animateIn="fadeIn">
+        <MonthCalendar date={WEDDING_DATE} month={WEDDING_MONTH} year={WEDDING_YEAR} />
+      </ScrollAnimation>
 
-      <div className="np-main-invitation-section__desc">17 августа 2024</div>
+      <ScrollAnimation animateOnce animateIn="fadeIn">
+        <div className="np-main-invitation-section__desc">17 августа 2024</div>
+      </ScrollAnimation>
     </SectionLayout>
   );
 };
