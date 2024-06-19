@@ -1,6 +1,9 @@
 @import "src/assets/styles";
 
 .np-main-details-section {
+    padding-bottom: 50px;
+    background: linear-gradient(0deg, rgb(185, 209, 189) 0%, rgb(214, 223, 211) 15%);
+
     &__title {
         font-size: 40px;
         font-family: $memories;

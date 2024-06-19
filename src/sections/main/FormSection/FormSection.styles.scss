@@ -2,9 +2,9 @@
 
 .np-main-form-section {
     position: relative;
-    padding-top: 48px !important;
+    padding-top: 8px !important;
     padding-bottom: 50% !important;
-    background: linear-gradient(0deg, rgba(185, 209, 189) 85%, rgb(214 223 211) 100%);
+    background-color: rgba(185, 209, 189);
 
     @media (min-width: 700px) {
         padding-bottom: 300px !important;
