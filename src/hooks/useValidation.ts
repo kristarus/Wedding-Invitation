@@ -22,7 +22,7 @@ interface IValidatorHook {
 }
 
 enum ErrorMessage {
-  REQUIRED = 'validation.required',
+  REQUIRED = 'Это поле обязательное к заполнению',
   EMAIL_NOT_VALID = 'validation.email.notValid',
   DIGITS_ONLY = 'validation.digitsOnly',
   GA_LENGTH = 'validation.ga.length',

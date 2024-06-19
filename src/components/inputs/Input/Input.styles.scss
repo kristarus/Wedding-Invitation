@@ -20,8 +20,8 @@
     }
     
     &__filled {
-        border-color: $filled-input-bg-color;
-        background-color: $filled-input-bg-color;
+        // border-color: $filled-input-bg-color;
+        // background-color: $filled-input-bg-color;
 
         &.ant-input-affix-wrapper-focused {
             border-color: $primary;

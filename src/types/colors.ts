@@ -33,6 +33,7 @@ export enum DefaultColors {
   RED_LIGHT = '#FEDCDF',
   RED_MEDIUM = '#F94E5D',
   RED_DARK = '#442c2e',
+  RED_WINE = 'rgb(129, 0, 45)',
   CRIMSON_LIGHT = '#fedcf5',
   CRIMSON_MEDIUM = '#bf2559',
   CRIMSON_DARK = '#492740',
@@ -193,7 +194,7 @@ export enum LightColors {
 }
 
 const ThemeTokenCommon = {
-  fontFamily: "'Satoshi', sans-serif",
+  fontFamily: "'Nunito', sans-serif",
 };
 
 export const ThemeTokenLight = {
@@ -202,6 +203,13 @@ export const ThemeTokenLight = {
   colorLinkHover: DefaultColors.GREEN_MEDIUM_50,
   colorLinkActive: DefaultColors.GREEN_MEDIUM_50,
   colorBgElevated: DefaultColors.WHITE,
+  labelRequiredMarkColor: DefaultColors.RED_WINE,
+  labelColor: DefaultColors.GREEN_LIGHT,
+  colorError: DefaultColors.RED_WINE,
+  colorBorder: 'transparent',
+  colorBgContainer: 'rgb(233 241 230)',
+  activeBg: 'rgb(233 241 230)',
+  hoverBg: 'rgb(233 241 230)',
 
   ...ThemeTokenCommon,
 };
@@ -212,6 +220,13 @@ export const ThemeTokenDark = {
   colorLinkHover: DefaultColors.GREEN_MEDIUM_50,
   colorLinkActive: DefaultColors.GREEN_MEDIUM_50,
   colorBgElevated: DefaultColors.CHINESE_BLACK,
+  labelRequiredMarkColor: DefaultColors.RED_WINE,
+  labelColor: DefaultColors.GREEN_LIGHT,
+  colorError: DefaultColors.RED_WINE,
+  colorBorder: 'transparent',
+  colorBgContainer: 'rgb(233 241 230)',
+  activeBg: 'rgb(233 241 230)',
+  hoverBg: 'rgb(233 241 230)',
 
   ...ThemeTokenCommon,
 };

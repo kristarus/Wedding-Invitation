@@ -1,0 +1,19 @@
+@import "src/assets/styles";
+
+.np-main-form-questions-form {
+    margin-top: 24px;
+    width: 100%;
+    max-width: 400px;
+
+    .ant-form-item-label {
+        label {
+            color: $main-desc-color;
+        }
+    }
+
+    .ant-radio-group, 
+    .ant-checkbox-group {
+        display: flex;
+        flex-direction: column;
+    }
+}

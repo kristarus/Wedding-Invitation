@@ -1,0 +1,31 @@
+@import "src/assets/styles";
+
+.np-main-form-section {
+    position: relative;
+    padding-top: 48px !important;
+    padding-bottom: 50% !important;
+    background: linear-gradient(0deg, rgb(185, 209, 189) 0%, rgba(185, 209, 189, 0.85) 20%, rgba(185, 209, 189, 0.85) 80%, rgb(214 223 211) 100%);
+
+    @media (min-width: 700px) {
+        padding-bottom: 300px !important;
+    }
+
+    &__title {
+        padding-top: 40%;
+        font-size: 40px;
+        font-family: $memories;
+        color: $primary;
+
+        @media (min-width: 400px) {
+            font-size: 50px;
+        }
+    }
+
+    &__img {
+        position: absolute;
+        width: 70%;
+        bottom: 0;
+        right: 0;
+        max-width: 400px;
+    }
+}
