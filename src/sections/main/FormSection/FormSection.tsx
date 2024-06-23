@@ -16,7 +16,7 @@ const FormSection = () => {
         <Header />
       </ScrollAnimation>
 
-      <ScrollAnimation animateOnce animateIn="fadeIn">
+      <ScrollAnimation animateOnce animateIn="fadeIn" className="np-main-form-section__form">
         <QuestionsForm />
       </ScrollAnimation>
 

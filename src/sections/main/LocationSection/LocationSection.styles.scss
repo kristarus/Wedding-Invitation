@@ -10,6 +10,11 @@
         gap: 32px;
     }
 
+    &__map {
+        display: flex;
+        justify-content: center;
+    }
+
     &__img {
         position: absolute;
         left: 0;

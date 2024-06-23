@@ -17,7 +17,12 @@ const InvitationSection = () => {
       </ScrollAnimation>
 
       <ScrollAnimation animateOnce animateIn="fadeIn">
-        <MonthCalendar date={WEDDING_DATE} month={WEDDING_MONTH} year={WEDDING_YEAR} />
+        <MonthCalendar
+          date={WEDDING_DATE}
+          month={WEDDING_MONTH}
+          year={WEDDING_YEAR}
+          className="np-main-invitation-section__calendar"
+        />
       </ScrollAnimation>
 
       <ScrollAnimation animateOnce animateIn="fadeIn">

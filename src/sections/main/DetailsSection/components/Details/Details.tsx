@@ -42,8 +42,7 @@ const Details = () => {
         <div className="np-main-details-section-details__item">
           <span className="np-main-details-section-details__item-title">Подарки</span>
           <span className="np-main-details-section-details__item-desc">
-            Если вы желаете поздравить нас по случаю праздника, мы будем благодарны денежным подаркам и обещаем найти им
-            самое лучшее применение.
+            Чтобы наши руки были свободны для объятий, будем рады легким подаркам в конвертах.
           </span>
         </div>
       </ScrollAnimation>

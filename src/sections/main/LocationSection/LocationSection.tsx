@@ -19,7 +19,7 @@ const LocationSection = () => {
         <LocationHeader />
       </ScrollAnimation>
 
-      <ScrollAnimation animateOnce animateIn="fadeIn">
+      <ScrollAnimation animateOnce animateIn="fadeIn" className="np-main-location-section__map">
         <Map />
       </ScrollAnimation>
     </SectionLayout>
