@@ -4,6 +4,7 @@ export enum Alcohol {
   VODKA = 'vodka',
   WHISKEY = 'whiskey',
   COGNAC = 'cognac',
+  NO_ALCO = 'no-alco',
 }
 
 export const AlcoholOptions = [
@@ -26,5 +27,9 @@ export const AlcoholOptions = [
   {
     value: Alcohol.COGNAC,
     label: 'Коньяк',
+  },
+  {
+    value: Alcohol.NO_ALCO,
+    label: 'Безалкогольные',
   },
 ];

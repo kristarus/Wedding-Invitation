@@ -65,7 +65,7 @@ const QuestionsForm = () => {
           </Radio.Group>
         </Form.Item>
 
-        <Form.Item name="alcohol" label="Ваши предпочтения по алкоголю">
+        <Form.Item name="alcohol" label="Ваши предпочтения по напитками">
           <Checkbox.Group disabled={loading}>
             {AlcoholOptions.map(option => (
               <Checkbox key={option.value} value={option.value}>
