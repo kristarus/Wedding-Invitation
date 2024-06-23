@@ -1,13 +1,12 @@
 import { SendQuestionnaireParams } from 'services/wedding.service';
 import { IQuestionsFormFields } from '../QuestionsForm.types';
-import { Presence } from '../constants/presence';
 import { AlcoholOptions } from '../constants/alcohol';
 
 const prepareData = (data: IQuestionsFormFields): SendQuestionnaireParams => {
   const alcoholArray =
     data?.alcohol?.map(item => AlcoholOptions.find(({ value }) => item === value)?.label || item) || [];
 
-  const presence = Presence.YES ? 'Да' : 'Нет';
+  const presence = data.presence ? 'Да' : 'Нет';
 
   return {
     ...data,
