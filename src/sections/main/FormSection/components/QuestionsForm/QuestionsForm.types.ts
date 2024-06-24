@@ -1,6 +1,8 @@
+import { Presence } from './constants/presence';
+
 export interface IQuestionsFormFields {
   name: string;
-  presence: boolean;
+  presence: Presence;
   alcohol?: string[];
   note?: string;
 }
