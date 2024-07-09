@@ -13,9 +13,9 @@ const Header = () => {
         <span className="np-main-form-header__desc">
           Пожалуйста, чтобы всё прошло идеально, ответьте на несколько вопросов в анкете
         </span>
-        <span className="np-main-form-header__desc">
+        {/* <span className="np-main-form-header__desc">
           Просьба заполнить данную анкету до <span className="np-main-form-header__desc accent">10 июля</span>
-        </span>
+        </span> */}
       </div>
     </div>
   );
